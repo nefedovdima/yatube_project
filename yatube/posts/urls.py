@@ -5,5 +5,5 @@ urlpatterns = [
     # Главная страница
     path('', views.index),
     # Страница со групп постов
-    path('group/<slug:slug>/', views.group_posts),
+    path('group_list/', views.group_posts),
 ]
